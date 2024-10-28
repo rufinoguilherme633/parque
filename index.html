@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurassic Parque</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Bem-vindo ao Jurassic Parque</h1>
+        <p>Uma aventura pré-histórica para toda a família!</p>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#intro">Início</a></li>
+            <li><a href="#attractions">Atrações</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção de Introdução -->
+    <section id="intro" class="intro">
+        <h2>Sobre o Parque</h2>
+        <p>O parque oferecerá uma experiência única e diversificada, combinando atrações emocionantes de um parque de diversão com a diversão refrescante de um parque aquático. As atividades serão organizadas para garantir o entretenimento de pessoas de todas as idades, desde crianças até adultos</p>
+    </section>
+
+    <!-- Seção de Atrações -->
+    <section id="attractions" class="attractions">
+        <h2>Nossas Atrações</h2>
+        <div class="attraction-card">
+            <img src="./img/T-Rex.jpg" alt="T-Rex">
+            <h3>Encontro com o T-Rex</h3>
+            <p>Veja de perto o poderoso T-Rex em nossa área exclusiva. Uma experiência de tirar o fôlego!</p>
+        </div>
+        <div class="attraction-card">
+            <img src="img/roda-gigante.webp" alt="Passeio de Jeep">
+            <h3>Roda Gigante</h3>
+            <p>Desfrute de vistas incríveis do parque enquanto gira lentamente no alto!</p>
+        </div>
+        <div class="attraction-card">
+            <img src="img/montanha-russa.jpg" alt="Área dos Herbívoros">
+            <h3>Montanha Russa</h3>
+            <p>Prepare-se para a adrenalina enquanto desce a toda velocidade em nossa emocionante montanha russa!</p>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+<!-- Seção de Contato -->
+<section id="contact" class="contact">
+    <h2>Cadastre-se para Vagas</h2>
+    <p>Preencha o formulário abaixo para se cadastrar e receber atualizações sobre oportunidades no Jurassic Parque!</p>
+    <form action="mailto:contato@jurassicparque.com" method="POST" enctype="text/plain">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Jurassic Parque - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
